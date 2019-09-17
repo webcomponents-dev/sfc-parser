@@ -1,6 +1,6 @@
 {
   "name": "@webcomponents-dev/sfc-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse Single File Components",
   "main": "dist/index.js",
   "module": "dist/index.js",
