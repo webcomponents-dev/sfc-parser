@@ -1,0 +1,33 @@
+{
+  "name": "@webcomponents-dev/sfc-parser",
+  "version": "1.0.0",
+  "description": "Parse Single File Components",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pub": "rimraf dist && npm run build && npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webcomponents-dev/sfc-parser.git"
+  },
+  "keywords": [
+    "sfc"
+  ],
+  "author": "webcomponents.dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webcomponents-dev/sfc-parser/issues"
+  },
+  "homepage": "https://github.com/webcomponents-dev/sfc-parser#readme",
+  "dependencies": {
+    "node-html-parser": "^1.1.16"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.0",
+    "typescript": "^3.6.3"
+  }
+}
